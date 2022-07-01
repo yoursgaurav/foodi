@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>foodi</title>
+    <link rel="stylesheet" href="dist/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="bg-[#F8F9FB]">
+    <!-- Header -->
+    <header class="font-normal my-3">
+        <nav class="max-w-screen-lg mx-auto flex items-center place-content-between md:py-2 lg:px-0 px-4">
+            <img src="img/foodi..png" class="h-6" alt="" srcset="">
+            <div class="flex">
+                <button class="lg:hidden" id="menu-toggler"><i class="fa-solid fa-bars"></i></button>
+                <ul class="lg:flex flex flex-col lg:flex-row items-center justify-center hidden absolute top-16 left-4 right-4 py-5 lg:py-0 shadow-lg lg:shadow-none bg-gray-50 dark:bg-slate-900 lg:bg-transparent lg:static"
+                    id="nav-menu">
+                    <li class="lg:my-0 m-2 font-medium text-gray-500 hover:text-green-900 transition-all"><a
+                            href="#">Home</a></li>
+                    <li class="lg:my-0 m-2 font-medium text-gray-500 hover:text-green-900 transition-all"><a
+                            href="#">Explore</a></li>
+                    <li class="lg:my-0 m-2 font-medium text-gray-500 hover:text-green-900 transition-all"><a
+                            href="#">Dishes</a></li>
+                    <button class="ml-2 btn btn-primary">Order Now</button>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section  -->
+    <section
+        class="max-w-screen-lg mx-auto flex flex-col lg:flex-row items-center justify-between p-4 lg:px-0 lg:py-11">
+        <div class="order-2 lg:order-1 py-6 lg:max-w-md flex flex-col items-center lg:items-start">
+            <h1 class="font-semibold lg:font-bold text-2xl lg:text-4xl text-center lg:text-left">Order your favorite
+                food now!</h1>
+            <p class="text-center lg:text-left py-4">We provide variety of foods to our customers as per their interest
+                and some more text here to showWe
+                provide variety of foods to our as per their interest and some.</p>
+            <button class="btn btn-secondary">Order Now</button>
+        </div>
+        <img src="img/food-plate.png" class="order-1 lg:order-2 w-full sm:w-2/3 md:w-2/4" alt="" srcset="">
+    </section>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
